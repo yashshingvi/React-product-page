@@ -1,0 +1,28 @@
+.TopBar{
+    background-color: whitesmoke;
+    
+    /* padding: 12px 12px 12px; */
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.TopBar > img{
+    width: 120px;
+}
+.MainContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.ProductPreview{
+    width: 50%;
+    position: relative;
+}
+.ProductData{
+    width: 50%;
+}
+
